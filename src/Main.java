@@ -28,6 +28,7 @@ public class Main {
         Cargo uniqueCargo = new Cargo();
         uniqueCargo.defineCargo();
 
-
+        Spaceship uniqueSpaceship = new Spaceship();
+        uniqueSpaceship.defineSpaceship();
     }
 }

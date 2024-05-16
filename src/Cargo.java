@@ -24,11 +24,11 @@ public class Cargo {
             try {
                 System.out.print("Define the amount of the Cargo:");
                 this.setCount(keyboard.nextInt());
-                keyboard.close();
                 break;
             }
             catch (InputMismatchException e){
                 System.out.println("Invalid input, try again!");
+                keyboard.next();
             }
         }
     }
